@@ -59,6 +59,15 @@
 
 <script>
 
+  window.addEventListener('keydown', function (e) {
+    let soundClips = document.getElementsByTagName('audio');
+    for (let key of soundClips) {
+      //console.log(key.attributes);
+      if (key.attributes['data-key'] === e.code) {
+        alert(e)
+      }
+    }
+  });
 </script>
 
 
