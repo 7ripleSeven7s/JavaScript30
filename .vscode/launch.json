@@ -8,7 +8,15 @@
       "type": "chrome",
       "request": "launch",
       "name": "Open index-START.html",
-      "file": "c:\\Users\\Oliver\\Dev\\src\\web\\JavaScript30\\01 - JavaScript Drum Kit\\index-START.html"
+      "file": "c:\\Users\\Oliver\\Dev\\src\\web\\JavaScript30\\02 - JS and CSS Clock\\index-START.html"
+    },
+    {
+      "name": "Attach to Chrome",
+      "type": "chrome",
+      "request": "attach",
+      "address": "127.0.0.1",
+      "port": 5500,
+      "webRoot": "${workspaceFolder}"
     }
   ]
 }
