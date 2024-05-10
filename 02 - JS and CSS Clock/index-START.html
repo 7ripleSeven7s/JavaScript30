@@ -54,8 +54,6 @@
 
     .clock-face {
       position: relative;
-/*       width: 100%;
-      height: 100%; */
       width: 30rem;
       height: 30rem;
       transform: translateY(-3px); /* account for the height of the clock hands */
@@ -69,13 +67,19 @@
       top: 50%;
       transform-origin: 100%;
       transform: rotate(90deg);
-      transition: all 0.5s;
+      transition: all 0.05s;
+      transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
     }
 
   </style>
-
+    
   <script>
-
+    function setDate() {
+      console.log('setdate');
+      
+    }
+    const xxx = "";
+        
 
   </script>
 </body>
